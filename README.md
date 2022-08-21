@@ -1,1 +1,4 @@
 # football-app
+Welcome to this my first football web app, developed with R shiny. I constructed a dissimilarity measure to compare football's players based on their performances in season 2014-2015. The raw dataset, which contains informations about 3003 players described with 109 variables, is available as a .csv file in the folder data/.
+
+You can check the app user interface code source in the file ui.R and the server code source in server.R . Note that in the folder data, you just have the raw data, but all preprocessing operations you need to create the files you will need to execute the app (see in ui.R) is available in the code Upgrade_summary.R . You can also text me on linkedin to directly have those files from me, check my account link in the code ui.R . If you want more details about the construction of the dissimilarity measure, see (...je mettrai le lien vers mon rapport...).  
