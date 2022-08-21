@@ -261,7 +261,7 @@ shinyServer(function(input, output) {
   
   #----------------Requête distances----------------------------------------------
   output$entete= renderText({
-    print("Ce message d'erreur apparaît car vous n'avez pas encore chargé de fichier.  
+    print("Si un message d'erreur apparaît, c'est parce que vous n'avez pas encore chargé de fichier.  
           Veuillez charger votre fichier et valider vos choix !")
   })
   
