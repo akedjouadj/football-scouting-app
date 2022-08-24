@@ -251,7 +251,7 @@ shinyServer(function(input, output) {
         
         w1<- input$interception_w+input$offside_w+input$fouled_w+input$foul_w+input$unstch_w+input$disp_w+input$clearance_w
         +1.5*input$tackle_w+1.5*input$block_w+1.5*input$aerial_w+1.5*input$dribble_w+2*input$assist_w+(4.5*input$shot_w+2)+ (3.5*input$goal_w+1.5)
-        +(4.5*input$pass_w+2)+(2.5*input$keypass_w+1)
+        +(4.5*input$pass_w+2)+(2.5*input$keypass_w+1)+5
         
         d_fin <- dist_final(Manhattan_dist, dist_pos1, dist_pos2, Team_country_dist, fun=input$stand_method, w1=w1, w2= input$position_w, w3= input$team_league_w)
       })
