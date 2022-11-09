@@ -1,5 +1,4 @@
 rm(list=ls())
-# load("C:/Users/User/Desktop/Semesters/UCL/R codes/Save Data/Football1.RData")
 load("Football1.RData")
 attach(Football)
 
